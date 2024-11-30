@@ -1,0 +1,84 @@
+.div-primary {
+  background-color: var(--white);
+  cursor: pointer;
+  &:deep(.label-header) {
+    height: var(--height-header-div-primary);
+  };
+  &:deep(.label-icon) {
+    fill: var(--black);
+  }
+  &:deep(.label-text-h) {
+    color: var(--black);
+  }
+  &:deep(.label-text-p) {
+    color: var(--black);
+  }
+  &:deep(.label-a) {
+    position: absolute;
+    visibility: hidden;
+  }
+  &.active {
+    background-color: var(--black);
+    transform: scale(1.2, 1.4);
+    box-shadow: -3px -1px 15px 0px var(--white);
+    border-radius: 4px;
+    &:deep(.label-header) {
+      height: var(--height-header-div-primary-active);
+    };
+    &:deep(.label-icon) {
+      fill: var(--white);
+    }
+    &:deep(.label-text-h) {
+      border: none!important;
+      color: var(--white);
+    }
+    &:deep(.label-text-p) {
+      color: var(--white);
+    }
+    &:deep(.label-a) {
+      position: relative;
+      visibility: visible;
+      margin-bottom: 10px;
+    }
+  }
+}
+//////////////////////////////
+.div-secondary {
+  cursor: pointer;
+  &:deep(.label-header) {
+    border-radius: 10px;
+    height: var(--height-header-div-secondary);
+    box-shadow: 2px 2px 15px var(--black-10);
+  }
+  &:deep(.label-text-h) {
+    color: var(--black);
+  }
+  &:deep(.label-text-p) {
+    color: var(--black);
+  }
+  &:deep(.label-a) {
+    position: absolute;
+    visibility: hidden;
+  }
+  &.active {
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px var(--black-10);
+    transform: scale(1.05, 1.1) translateY(12px);
+    &:deep(.label-header) {
+      box-shadow: none;
+      height: var(--height-header-div-secondary-active);
+    }
+    &:deep(.label-text-h) {
+      margin-left: 10px;
+    }
+    &:deep(.label-text-p) {
+      margin-left: 10px;
+    }
+    &:deep(.label-a) {
+      position: relative;
+      visibility: visible;
+    }
+  }
+}

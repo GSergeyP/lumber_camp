@@ -1,0 +1,81 @@
+@mixin font($font-family, $font-size, $line-height, $letter-spacing) {
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+
+/////////////////////////////////////////////
+.lig-16 {
+  @include font(GTEestiProDisplay-Light, 16px, 18.56px, 0.02em);
+}
+.lig-16-sfu {
+  @include font(GTEestiProDisplay-Light, 16px, 23px, 0.02em);
+}
+.lig-14 {
+  @include font(GTEestiProDisplay-Light, 14px, 16.24px, 0.02em);
+}
+.lig-11 {
+  @include font(GTEestiProDisplay-Light, 11px, 12.76px, 0.02em);
+}
+/////////////////////////////////////////////
+.reg-30 {
+  @include font(GTEestiProDisplay-Regular, 30px, 34.8px, normal);
+}
+.reg-24 {
+  @include font(GTEestiProDisplay-Regular, 24px, 27.84px, 0.02em);
+}
+.reg-22 {
+  @include font(GTEestiProDisplay-Regular, 22px, 25.52px, 0.02em);
+}
+.reg-22-sfp {
+  @include font(GTEestiProDisplay-Regular, 22px, 28.6px, normal);
+}
+.reg-18 {
+  @include font(GTEestiProDisplay-Regular, 18px, 20.88px, normal);
+}
+.reg-16 {
+  @include font(GTEestiProDisplay-Regular, 16px, 18.56px, 0.02em);
+}
+.reg-14 {
+  @include font(GTEestiProDisplay-Regular, 14px, 16.24px, normal);
+}
+.reg-11 {
+  @include font(GTEestiProDisplay-Regular, 11px, 12.76px, normal);
+}
+
+/////////////////////////////////////////////
+.med-30 {
+  @include font(GTEestiProDisplay-Medium, 30px, 34.8px, normal);
+}
+.med-24 {
+  @include font(GTEestiProDisplay-Medium, 24px, 27.84px, normal);
+}
+.med-14 {
+  @include font(GTEestiProDisplay-Medium, 14px, 18.55px, 0.005em);
+}
+.med-12 {
+  @include font(GTEestiProDisplay-Medium, 12px, 15.9px, 0.5px);
+}
+/////////////////////////////////////////////
+.bold-64 {
+  @include font(GTEestiProDisplay-Bold, 64px, 74.24px, 0.04em);
+}
+.bold-55 {
+  @include font(GTEestiProDisplay-Bold, 55px, 63.8px, 0.04em);
+}
+.bold-43 {
+  @include font(GTEestiProDisplay-Bold, 43px, 49.88px, 0.04em);
+}
+.bold-28 {
+  @include font(GTEestiProDisplay-Bold, 28px, 32.48px, 0.04em);
+}
+.bold-18-rob {
+  @include font(RobotoCondensed-Bold, 18px, 21.24px, 0.02em);
+}
+.bold-16-rob {
+  @include font(RobotoCondensed-Bold, 16px, 18.88px, 0.02em);
+}
+.bold-14-rob {
+  @include font(RobotoCondensed-Bold, 14px, 16.41px, 0.02em);
+}

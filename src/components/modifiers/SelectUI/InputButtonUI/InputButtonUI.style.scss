@@ -1,0 +1,13 @@
+.submit-primary {
+  color: var(--white);
+  background-color: var(--green);
+  border-radius: 4px;
+  @media(hover) {
+    &:hover {
+      background-color: var(--light-green);
+    }
+  }
+  &:active {
+    background-color: var(--light-green);
+  }
+}

@@ -1,0 +1,139 @@
+.button-primary {
+  color: var(--color-nav-button-primary);
+  &:deep(.label-icon) {
+    fill: var(--color-nav-button-icon-primary);
+  }
+  @media(hover) {
+    &:hover {
+      color: var(--light-green);
+      &:deep(.label-icon) {
+        fill: var(--light-green);
+      }
+    }
+  }
+  &:active {
+    color: var(--green);
+    &:deep(.label-icon) {
+      fill: var(--green);
+    }
+  }
+  &.active {
+    color: var(--green);
+    cursor: default;
+  }
+}
+//////////////////////////
+.button-secondary {
+  color: var(--white);
+  background-color: var(--green);
+  border-radius: 4px;
+  @media(hover) {
+    &:hover {
+      background-color: var(--light-green);
+    }
+  }
+  &:active {
+    background-color: var(--light-green);
+  }
+}
+//////////////////////////
+.button-tertiary {
+  &:deep(.label-icon) {
+    fill: var(--black);
+  }
+  @media(hover) {
+    &:hover {
+      &:deep(.label-icon) {
+        fill: var(--light-green);
+      }
+    }
+  }
+  &:active {
+    &:deep(.label-icon) {
+      fill: var(--green);
+    }
+  }
+}
+//////////////////////////
+.button-quaternary {
+  color: var(--white);
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px 0px var(--black-10);
+  @media(hover) {
+    &:hover {
+      box-shadow: none;
+    }
+  }
+  &:active {
+    box-shadow: -4px 5px 5px 0px var(--black-12) inset;
+  }
+}
+//////////////////////////
+.button-fivefold {
+  background-color: var(--white);
+  border-radius: 40px;
+  &:deep(.label-icon) {
+    fill: var(--black);
+  }
+  @media(hover) {
+    &:hover {
+      background-color: var(--light-green);
+      &:deep(.label-icon) {
+        fill: var(--white);
+      }
+    }
+  }
+  &:active {
+    background-color: var(--green);
+    &:deep(.label-icon) {
+      fill: var(--white);
+    }
+  }
+}
+//////////////////////////
+.button-sixfold {
+  &:deep(.label-icon) {
+    fill: var(--color-nav-button-sixfold);
+  }
+  @media(hover) {
+    &:hover {
+      &:deep(.label-icon) {
+        fill: var(--light-green);
+      }
+    }
+  }
+  &:active {
+    &:deep(.label-icon) {
+      fill: var(--green);
+    }
+  }
+}
+//////////////////////////
+.button-sevenfold {
+  &:deep(.label-icon) {
+    transform: rotate(270deg);
+  }
+  &.active {
+    &:deep(.label-icon) {
+      transform: rotate(90deg);
+    }
+  }
+}
+//////////////////////////
+.button-eightfold {
+  &:deep(.label-icon) {
+    fill: var(--black);
+  }
+  @media(hover) {
+    &:hover {
+      &:deep(.label-icon) {
+        fill: var(--light-green);
+      }
+    }
+  }
+  &:active {
+    &:deep(.label-icon) {
+      fill: var(--green);
+    }
+  }
+}

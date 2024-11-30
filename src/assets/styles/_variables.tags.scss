@@ -1,0 +1,30 @@
+[device='xl'] {
+  --height-header-div-primary: 120px;
+  --height-header-div-primary-active: 140px;
+  --height-header-div-secondary: 315px;
+  --height-header-div-secondary-active: 250px;
+}
+[device='lg'] {
+  --height-header-div-primary: 144px;
+  --height-header-div-primary-active: 164px;
+  --height-header-div-secondary: 257px;
+  --height-header-div-secondary-active: 190px;
+}
+[device='md'] {
+  --height-header-div-primary: 94px;
+  --height-header-div-primary-active: 114px;
+  --height-header-div-secondary: 257px;
+  --height-header-div-secondary-active: 170px;
+}
+[device='sm'] {
+  --height-header-div-primary: 84px;
+  --height-header-div-primary-active: 114px;
+  --height-header-div-secondary: 149px;
+  --height-header-div-secondary-active: 70px;
+}
+[device='xs'] {
+  --height-header-div-primary: 74px;
+  --height-header-div-primary-active: 114px;
+  --height-header-div-secondary: 149px;
+  --height-header-div-secondary-active: 70px;
+}

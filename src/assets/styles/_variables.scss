@@ -1,0 +1,47 @@
+:root {
+  --white:          #FFFFFF;
+  --platinum:       #E0E0E0;
+  --gray:           #BCCAD2;
+  --bluish-black:   #414141;
+  --black-50:       #00000080;
+  --black-12:       #00000012;
+  --black-10:       #0000001a;
+  --black:          #1C1C1C;
+  --light-green:    #8BAF13;
+  --green:          #799A0D;
+
+  @font-face {
+    font-family: 'GTEestiProDisplay-Light';
+    src: url('../fonts/GTEestiProDisplay-Light.ttf') format('truetype');
+  }
+  /////////////////////////////////////////////////////////////////////
+  @font-face {
+    font-family: 'GTEestiProDisplay-Regular';
+    src: url('../fonts/GTEestiProDisplay-Regular.ttf') format('truetype');
+  }
+  /////////////////////////////////////////////////////////////////////
+  @font-face {
+    font-family: 'GTEestiProDisplay-Medium';
+    src: url('../fonts/GTEestiProDisplay-Medium.ttf') format('truetype');
+  }
+  /////////////////////////////////////////////////////////////////////
+  @font-face {
+    font-family: 'GTEestiProDisplay-Bold';
+    src: url('../fonts/GTEestiProDisplay-Bold.ttf') format('truetype');
+  }
+  /////////////////////////////////////////////////////////////////////
+  @font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+  }
+  /////////////////////////////////////////////////////////////////////
+  @font-face {
+    font-family: 'SFProDisplay-Regular';
+    src: url('../fonts/SFProDisplay-Regular.ttf') format('truetype');
+  }
+  /////////////////////////////////////////////////////////////////////
+  @font-face {
+    font-family: 'SFUIDisplay-Light';
+    src: url('../fonts/SFUIDisplay-Light.ttf') format('truetype');
+  }
+}
